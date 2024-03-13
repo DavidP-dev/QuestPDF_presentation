@@ -4,6 +4,7 @@ using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 
+// Template layer
 public class InvoiceDocument : IDocument
 {
     public InvoiceModel Model { get; }
